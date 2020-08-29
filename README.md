@@ -1,9 +1,8 @@
 # movieInfo-nodejs-react
 
 ```javascript
-const thisWebApp = new Grave((start,end)=>{
-
-   console.log('IDK');
-  
+const thisWebApp = new Grave({
+   strat: idk,
+   end: idk
 });
 ```
