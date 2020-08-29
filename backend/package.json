@@ -1,0 +1,27 @@
+{
+  "name": "movie_info",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testEnvironment=node --verbose --forceExit --watchAll --maxWorkers=1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ben Wang",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "jest": "^26.4.2",
+    "joi": "^17.2.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.2",
+    "supertest": "^4.0.2",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.3"
+  }
+}
